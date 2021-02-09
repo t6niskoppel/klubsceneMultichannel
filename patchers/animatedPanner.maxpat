@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"workspacedisabled" : 1,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -2759,39 +2760,39 @@
 					"restore" : 					{
 						"db_unit[1]" : [ 4.937000000000001 ],
 						"db_unit[2]" : [ 3.9 ],
-						"live.numbox" : [ 0.0 ],
-						"live.numbox[10]" : [ 0.0 ],
-						"live.numbox[11]" : [ 0.0 ],
-						"live.numbox[12]" : [ 0.0 ],
-						"live.numbox[13]" : [ 1000.0 ],
-						"live.numbox[14]" : [ -1.0 ],
-						"live.numbox[15]" : [ 1.0 ],
-						"live.numbox[16]" : [ -1.0 ],
-						"live.numbox[17]" : [ 1.0 ],
-						"live.numbox[18]" : [ -1.0 ],
-						"live.numbox[19]" : [ 1.0 ],
-						"live.numbox[1]" : [ -0.2 ],
-						"live.numbox[20]" : [ 0.0 ],
-						"live.numbox[21]" : [ -1.0 ],
-						"live.numbox[22]" : [ -0.9 ],
-						"live.numbox[23]" : [ -1.0 ],
-						"live.numbox[24]" : [ 1.0 ],
-						"live.numbox[25]" : [ -1.0 ],
-						"live.numbox[26]" : [ 1.0 ],
-						"live.numbox[27]" : [ 0.0 ],
-						"live.numbox[2]" : [ 0.3 ],
-						"live.numbox[3]" : [ 0.0 ],
-						"live.numbox[4]" : [ 1.0 ],
-						"live.numbox[5]" : [ -1.0 ],
-						"live.numbox[6]" : [ 1.0 ],
-						"live.numbox[7]" : [ -1.0 ],
-						"live.numbox[8]" : [ 1.0 ],
-						"live.numbox[9]" : [ 0.9 ],
-						"live.toggle" : [ 0.0 ],
+						"live.numbox" : [ 19842.51968503936223 ],
+						"live.numbox[10]" : [ 0.241732283464567 ],
+						"live.numbox[11]" : [ -0.210236220472441 ],
+						"live.numbox[12]" : [ 0.178740157480315 ],
+						"live.numbox[13]" : [ 61417.322834645667172 ],
+						"live.numbox[14]" : [ 0.0 ],
+						"live.numbox[15]" : [ 0.614173228346456 ],
+						"live.numbox[16]" : [ -0.267716535433071 ],
+						"live.numbox[17]" : [ 0.1 ],
+						"live.numbox[18]" : [ -0.1 ],
+						"live.numbox[19]" : [ 0.178740157480315 ],
+						"live.numbox[1]" : [ 0.0 ],
+						"live.numbox[20]" : [ 15118.110236220472871 ],
+						"live.numbox[21]" : [ 0.0 ],
+						"live.numbox[22]" : [ 0.724409448818897 ],
+						"live.numbox[23]" : [ -0.25748031496063 ],
+						"live.numbox[24]" : [ 0.25748031496063 ],
+						"live.numbox[25]" : [ -0.225984251968504 ],
+						"live.numbox[26]" : [ 0.178740157480315 ],
+						"live.numbox[27]" : [ 27401.574803149585932 ],
+						"live.numbox[2]" : [ 0.69291338582677 ],
+						"live.numbox[3]" : [ -0.225984251968504 ],
+						"live.numbox[4]" : [ 0.1 ],
+						"live.numbox[5]" : [ -0.1 ],
+						"live.numbox[6]" : [ 0.1 ],
+						"live.numbox[7]" : [ -0.1 ],
+						"live.numbox[8]" : [ 0.69291338582677 ],
+						"live.numbox[9]" : [ 0.0 ],
+						"live.toggle" : [ 1.0 ],
 						"live.toggle[1]" : [ 1.0 ],
 						"live.toggle[2]" : [ 1.0 ],
 						"live.toggle[3]" : [ 1.0 ],
-						"mc.live.gain~" : [ 0.0 ],
+						"mc.live.gain~" : [ -69.4015748031496 ],
 						"prox_curve[1]" : [ 0.0 ],
 						"prox_min[1]" : [ 0.0 ],
 						"prox_min[2]" : [ 4.680000000000001 ],
@@ -3385,7 +3386,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1191.152350390289484, 1151.760486483573914, 51.0, 22.0 ],
-					"text" : "delete 1"
+					"text" : "delete 4"
 				}
 
 			}
@@ -4852,7 +4853,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1217.196462953422724, 859.411763668060303, 51.0, 22.0 ],
-					"text" : "delete 1"
+					"text" : "delete 3"
 				}
 
 			}
@@ -6319,7 +6320,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.240575516555964, 1214.063040852546692, 51.0, 22.0 ],
-					"text" : "delete 1"
+					"text" : "delete 2"
 				}
 
 			}
@@ -8972,11 +8973,11 @@
 				"box" : 				{
 					"comment" : "In 1",
 					"id" : "obj-65",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 599.161051630973816, 1358.05408742219538, 30.0, 30.0 ]
 				}
 
@@ -8985,11 +8986,11 @@
 				"box" : 				{
 					"comment" : "In 4",
 					"id" : "obj-64",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1084.389496410225092, 1371.214091422195452, 30.0, 30.0 ]
 				}
 
@@ -8998,11 +8999,11 @@
 				"box" : 				{
 					"comment" : "In 3",
 					"id" : "obj-63",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 961.889496410225092, 1367.555554749603289, 30.0, 30.0 ]
 				}
 
@@ -9011,11 +9012,11 @@
 				"box" : 				{
 					"comment" : "In 2",
 					"id" : "obj-62",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 807.917173266410828, 1361.45799362861635, 30.0, 30.0 ]
 				}
 
@@ -9024,7 +9025,7 @@
 				"box" : 				{
 					"comment" : "Multichannel out",
 					"id" : "obj-61",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -9462,7 +9463,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 716.889496410225092, 1433.094096422195435, 449.5, 22.0 ],
 					"saved_object_attributes" : 					{
-						"active" : [ 1, 1, 1, 1 ],
+						"active" : [ 0, 1, 1, 1 ],
 						"active_out" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
 						"aed_scale" : 10.0,
 						"center_att_db" : 0.0,
@@ -10602,58 +10603,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-10" : [ "live.numbox[9]", "live.numbox[6]", 0 ],
-			"obj-100" : [ "live.numbox[27]", "live.numbox[6]", 0 ],
-			"obj-101" : [ "live.numbox[28]", "live.numbox[6]", 0 ],
-			"obj-102" : [ "live.numbox[29]", "live.numbox[6]", 0 ],
-			"obj-103" : [ "live.numbox[30]", "live.numbox[6]", 0 ],
-			"obj-104" : [ "live.numbox[31]", "live.numbox[6]", 0 ],
-			"obj-110" : [ "live.numbox[32]", "live.numbox", 0 ],
-			"obj-111" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-13" : [ "live.numbox[10]", "live.numbox[6]", 0 ],
-			"obj-20" : [ "number[19]", "live.numbox", 0 ],
-			"obj-22" : [ "live.numbox[11]", "live.numbox[6]", 0 ],
-			"obj-4" : [ "live.numbox[6]", "live.numbox[6]", 0 ],
-			"obj-49" : [ "live.numbox[12]", "live.numbox[6]", 0 ],
-			"obj-50" : [ "live.numbox[13]", "live.numbox[6]", 0 ],
-			"obj-51" : [ "live.numbox[14]", "live.numbox[6]", 0 ],
-			"obj-54" : [ "live.numbox[15]", "live.numbox[6]", 0 ],
-			"obj-55" : [ "live.numbox[16]", "live.numbox[6]", 0 ],
-			"obj-57" : [ "live.numbox[17]", "live.numbox[6]", 0 ],
-			"obj-6" : [ "live.numbox[7]", "live.numbox[6]", 0 ],
-			"obj-60" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
-			"obj-7" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-70" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-71" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-79" : [ "live.numbox[19]", "live.numbox[6]", 0 ],
-			"obj-8" : [ "live.numbox[8]", "live.numbox[6]", 0 ],
-			"obj-80" : [ "live.numbox[20]", "live.numbox[6]", 0 ],
-			"obj-81" : [ "live.numbox[21]", "live.numbox[6]", 0 ],
-			"obj-82" : [ "live.numbox[22]", "live.numbox[6]", 0 ],
-			"obj-83" : [ "live.numbox[23]", "live.numbox[6]", 0 ],
-			"obj-84" : [ "live.numbox[5]", "live.numbox[6]", 0 ],
-			"obj-90" : [ "live.numbox[25]", "live.numbox", 0 ],
-			"obj-91" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-99" : [ "live.numbox[26]", "live.numbox[6]", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ambimonitor.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "ambipanning~.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

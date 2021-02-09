@@ -2,8 +2,8 @@
 	"name" : "42channelKlubscene",
 	"version" : 1,
 	"creationdate" : 3694780592,
-	"modificationdate" : 3694799134,
-	"viewrect" : [ 961.0, 65.0, 958.0, 940.0 ],
+	"modificationdate" : 3695396775,
+	"viewrect" : [ 1.0, 65.0, 1278.0, 1300.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -36,6 +36,16 @@
 			}
 ,
 			"main.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"gate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"freezeBP.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
